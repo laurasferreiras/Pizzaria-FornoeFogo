@@ -73,48 +73,16 @@
           Escolha sua favorita e descubra o verdadeiro sabor de uma pizza feita
           com dedicação!
         </p>
-        <div class="menu-grid">
-          <article class="pizza-card">
-            <h3>Pizza Margherita</h3>
-            <p>
-              Massa de longa fermentação, molho de tomate artesanal e queijo
-              mozzarella.
-            </p>
-            <span class="price">R$ 35,00</span>
-          </article>
-          <article class="pizza-card">
-            <h3>Pizza Pepperoni</h3>
-            <p>
-              Massa de longa fermentação, molho de tomate artesanal, queijo
-              mozzarella e pepperoni.
-            </p>
-            <span class="price">R$ 40,00</span>
-          </article>
-          <article class="pizza-card">
-            <h3>Pizza Quatro Queijos</h3>
-            <p>
-              Massa de longa fermentação, molho de tomate artesanal e uma
-              combinação de quatro queijos.
-            </p>
-            <span class="price">R$ 45,00</span>
-          </article>
-          <article class="pizza-card">
-            <h3>Pizza Calabresa</h3>
-            <p>
-              Massa de longa fermentação, molho de tomate artesanal, queijo
-              mozzarella e calabresa fatiada.
-            </p>
-            <span class="price">R$ 38,00</span>
-          </article>
-          <article class="pizza-card">
-            <h3>Pizza Portuguesa</h3>
-            <p>
-              Massa de longa fermentação, molho de tomate artesanal, queijo
-              mozzarella, presunto, ovos e azeitonas.
-            </p>
-            <span class="price">R$ 42,00</span>
-          </article>
+        <div class="filtros">
+          <button class="filtro ativo" data-categoria="todas">Todas</button>
+          <button class="filtro" data-categoria="tradicionais">
+            Tradicionais
+          </button>
+          <button class="filtro" data-categoria="especiais">Especiais</button>
+          <button class="filtro" data-categoria="doces">Doces</button>
         </div>
+
+        <div class="menu-grid" id="menu-grid"></div>
       </section>
 
       <section id="como-pedir">
@@ -144,8 +112,35 @@
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <div class="footer-content">
+        <div>
+          <p class="footer-logo">Forno&amp;Fogo</p>
+          <p>Sabor da tradição, direto do forno.</p>
+        </div>
+        <div>
+          <p><strong>Endereço</strong></p>
+          <p>Rua da Itália, 125 – Centro</p>
+        </div>
+        <div>
+          <p><strong>Horário</strong></p>
+          <p>Terça a domingo, das 18h às 23h</p>
+        </div>
+      </div>
+      <p class="copyright">
+        &copy; 2026 Forno&amp;Fogo. Todos os direitos reservados.
+      </p>
+    </footer>
 
+    <a
+      href="https://wa.me/5511999999999"
+      target="_blank"
+      rel="noopener"
+      class="whatsapp-float"
+      aria-label="Peça pelo WhatsApp"
+    >
+      💬
+    </a>
     <script src="main.js"></script>
   </body>
 </html>
