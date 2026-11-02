@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Forno&ampFogo - Pizzaria artesanal, sabor da tradição, direto do forno. Experimente nossas pizzas feitas com massa de longa fermentação, assadas em forno a lenha e ingredientes frescos."
+      content="Forno&amp;Fogo - Pizzaria artesanal, sabor da tradição, direto do forno. Experimente nossas pizzas feitas com massa de longa fermentação, assadas em forno a lenha e ingredientes frescos."
     />
-    <title>Forno&ampFogo | Pizzaria artesanal</title>
+    <title>Forno&amp;Fogo | Pizzaria artesanal</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,7 +19,15 @@
   <body>
     <header>
       <a href="#hero" class="logo">Forno&amp;Fogo</a>
-      <nav>
+      <button
+        class="menu-toggle"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+        aria-controls="menu"
+      >
+        ☰
+      </button>
+      <nav id="menu">
         <a href="#sobre">Sobre</a>
         <a href="#cardapio">Cardápio</a>
         <a href="#como-pedir">Como pedir?</a>
@@ -29,7 +37,7 @@
 
     <main>
       <section id="hero">
-        <h1>Forno&ampFogo</h1>
+        <h1>Forno&amp;Fogo</h1>
         <p>Sabor da tradição, direto do forno.</p>
         <a href="https://wa.me/5511999999999" target="_blank" class="btn"
           >Peça pelo WhatsApp</a
@@ -38,7 +46,7 @@
       <section id="sobre">
         <h2>Sobre</h2>
         <p>
-          <strong>Forno&ampFogo</strong> é uma pizzaria artesanal inspirada na
+          <strong>Forno&amp;Fogo</strong> é uma pizzaria artesanal inspirada na
           tradição italiana. Nosso objetivo é proporcionar uma experiência
           única, unindo sabor, qualidade e ingredientes selecionados.
         </p>
@@ -138,10 +146,6 @@
 
     <footer></footer>
 
-    <script src="script.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
-
-<!-- fontes
-playfair display titulos
-poppings textos -->
